@@ -35,24 +35,13 @@ const Login = React.forwardRef((props, ref) => {
   };
 
   const login = () => {
-    // if (text == undefined || text =="") {
-    //   setisValidatephnInput(0);
-    // }
-    // else {
-    //   // setisValidatephnInput(1);
-    //   props.navigate('otp')
-    // }
+   
     props.navigate('otp')
   }
 
 
   const emailLogin = () => {
-    // if (email == undefined || email =="") {
-    //   setisValidateemailInput(0);
-    // }
-    // else{
-    //   setisValidateemailInput(1);
-    // }
+    
     props.navigate('BottomNavigation')
   }
 
